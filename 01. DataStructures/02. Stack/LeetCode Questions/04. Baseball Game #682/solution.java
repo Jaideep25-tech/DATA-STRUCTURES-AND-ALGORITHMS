@@ -31,4 +31,3 @@ class Solution {
         return sum;
     }
 }
-© 2021 GitHub, Inc.
