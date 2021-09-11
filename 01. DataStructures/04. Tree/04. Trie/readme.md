@@ -38,9 +38,9 @@ public void insert(String wrd) {
 
 ## **[Video Reference](https://youtube.com/playlist?list=PL6Zs6LgrJj3uwRyATdtSua12k9EFQIW50)**
 
-## **[Implementation of Trie using Array.](./Trie_Array.java)**
+## **[Implementation of Trie using Array.]**
 
-## **[Implementation of Trie using HashMap.](./Tries_Hash.java)**
+## **[Implementation of Trie using HashMap.]**
 
 **Trie using HashMap give you the edge in inserting any string containing any character over Trie using Array + Trie using HashMap has less space complexity.**
 
