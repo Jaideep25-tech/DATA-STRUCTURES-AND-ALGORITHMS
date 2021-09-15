@@ -671,48 +671,7 @@ case 19:
 
 <hr>
 
-## **20 - Diameter of Binary Tree (O(n) Approach)**
-
-```java
-// function calling in main method
-BST bt=new BST(); // BST is a class that contains all functions
-
-case 20:
-	DiaPair d = new DiaPair();
-	d = bt.diameter(bt.root);
-	System.out.println("Diameter of Binary Tree (O(n) Approach) is = " + d.dia);
-	break;
-
-// START 20 - Diameter of Binary Tree (O(n) Approach)
-	static class DiaPair {
-		int ht;
-		int dia;
-	}
-
-	public static DiaPair diameter(Node node) {
-		if (node == null) {
-			DiaPair bp = new DiaPair();
-			bp.ht = -1;
-			bp.dia = 0;
-			return bp;
-		}
-		DiaPair lp = diameter(node.left);
-		DiaPair rp = diameter(node.right);
-
-		DiaPair mp = new DiaPair();
-		mp.ht = Math.max(lp.ht, rp.ht) + 1;
-
-		int des = lp.ht + rp.ht + 2;
-		mp.dia = Math.max(des, Math.max(lp.dia, rp.dia));
-
-		return mp;
-	}
-// END 20 - Diameter of Binary Tree (O(n) Approach)
-```
-
-<hr>
-
-## **21 - Delete a Node**
+## **20 - Delete a Node**
 ```java
 // function calling in main method
 BST bt=new BST(); // BST is a class that contains all functions
@@ -769,13 +728,13 @@ case 21:
 
 <hr>
 
-## **22 - Construct BT from Pre-Order and In-Order**
+## **21 - Construct BT from Pre-Order and In-Order**
 
 ```java
 // function calling in main method
 BST bt=new BST(); // BST is a class that contains all functions
 
-case 22:
+case 21:
 	System.out.print("Enter Number of Nodes in Binary Tree: ");
 	val = sc.nextInt();
 	preorder = new int[val];
@@ -790,7 +749,7 @@ case 22:
 	bt.root = bt.buildTreeFromInorderPreorder(preorder, inorder);
 	break;
 
-// START 22 - Construct BT from Pre-Order and In-Order
+// START 21 - Construct BT from Pre-Order and In-Order
 	public Node buildTreeFromInorderPreorder(int preorder[], int inorder[]) {
 		int n = inorder.length;
 		System.out.println("Your BT is Ready PRESS 4 AND ENTER to View");
@@ -816,18 +775,18 @@ case 22:
 
 		return n;
 	}
-// END 22 - Construct BT from Pre-Order and In-Order
+// END 21 - Construct BT from Pre-Order and In-Order
 ```
 
 <hr>
 
-## **23 - Construct BT from Post-Order and In-Order**
+## **22 - Construct BT from Post-Order and In-Order**
 
 ```java
 // function calling in main method
 BST bt=new BST(); // BST is a class that contains all functions
 
-case 23:
+case 22:
 	System.out.print("Enter Number of Nodes in Binary Tree: ");
 	val = sc.nextInt();
 	postorder = new int[val];
@@ -842,7 +801,7 @@ case 23:
 	bt.root = bt.buildTreeFromInorderPostorder(postorder, inorder);
 	break;
 
-// START 23 - Construct BT from Post-Order and In-Order
+// START 22 - Construct BT from Post-Order and In-Order
 	public Node buildTreeFromInorderPostorder(int postorder[], int inorder[]) {
 		int n = postorder.length;
 		System.out.println("Your BT is Ready PRESS 4 AND ENTER to View");
@@ -867,18 +826,18 @@ case 23:
 
 		return n;
 	}
-// END 23 - Construct BT from Post-Order and In-Order
+// END 22 - Construct BT from Post-Order and In-Order
 ```
 
 <hr>
 
-## **24 - Construct BST from In-Order**
+## **23 - Construct BST from In-Order**
 
 ```java
 // function calling in main method
 BST bt=new BST(); // BST is a class that contains all functions
 
-case 24:
+case 23:
 	System.out.print("Enter Number of Nodes in Binary Search Tree: ");
 	val = sc.nextInt();
 	inorder = new int[val];
@@ -888,7 +847,7 @@ case 24:
 	bt.root = bt.buildBSTfromInorder(inorder);
 	break;
 
-// START 24 - Construct BST from In-Order
+// START 23 - Construct BST from In-Order
 	public Node buildBSTfromInorder(int inorder[]) {
 		int n = inorder.length;
 		System.out.println("Your BST is Ready PRESS 4 AND ENTER to View");
@@ -906,19 +865,19 @@ case 24:
 
 		return n;
 	}
-// END 24 - Construct BST from In-Order
+// END 23 - Construct BST from In-Order
 ```
 
 <hr>
 
-## **25 - Construct BST from Pre-Order**
+## **24 - Construct BST from Pre-Order**
 
 
 ```java
 // function calling in main method
 BST bt=new BST(); // BST is a class that contains all functions
 
-case 25:
+case 23:
 	System.out.print("Enter Number of Nodes in Binary Search Tree: ");
 	val = sc.nextInt();
 	preorder = new int[val];
@@ -928,7 +887,7 @@ case 25:
 	bt.root = bt.buildBSTfromPreorder(preorder);
 	break;
 
-// START 25 - Construct BST from Pre-Order
+// START 24 - Construct BST from Pre-Order
 	int idx = 0;
 
 	public Node buildBSTfromPreorder(int preorder[]) {
@@ -950,18 +909,18 @@ case 25:
 
 		return n;
 	}
-// END 25 - Construct BST from Pre-Order
+// END 24 - Construct BST from Pre-Order
 ```
 
 <hr>
 
-## **26 - Construct BST from Post-Order**
+## **25 - Construct BST from Post-Order**
 
 ```java
 // function calling in main method
 BST bt=new BST(); // BST is a class that contains all functions
 
-case 26:
+case 25:
 	System.out.print("Enter Number of Nodes in Binary Search Tree: ");
 	val = sc.nextInt();
 	postorder = new int[val];
@@ -971,7 +930,7 @@ case 26:
 	bt.root = bt.buildBSTfromPostorder(postorder);
 	break;
 
-// START 26 - Construct BST from Post-Order
+// START 25 - Construct BST from Post-Order
 	public Node buildBSTfromPostorder(int postorder[]) {
 		int lr = -1000; // left range
 		int rr = 1000; // right range
@@ -991,22 +950,22 @@ case 26:
 
 		return n;
 	}
-// END 26 - Construct BST from Post-Order
+// END 25 - Construct BST from Post-Order
 ```
 
 <hr>
 
-## **27 - Check if the Binary Tree is Balanced**
+## **26 - Check if the Binary Tree is Balanced**
 
 ```java
 // function calling in main method
 BST bt=new BST(); // BST is a class that contains all functions
 
-case 27:
+case 26:
 	bt.height(bt.root);
 	System.out.println(bt.isBal);
 
-// START 27 - Check if the Binary Tree is Balanced
+// START 26 - Check if the Binary Tree is Balanced
 	static boolean isBal = true; // exclusive for func 27
 
 	public static int height(Node r) {
@@ -1026,7 +985,7 @@ case 27:
 			return Math.max(lheight, rheight) + 1;
 		}
 	}
-// END 27 - Check if the Binary Tree is Balanced
+// END 26 - Check if the Binary Tree is Balanced
 ```
 
 <hr>
