@@ -27,4 +27,3 @@ class Solution {
         return answer;
     }
 }
-© 2021 GitHub, Inc.
