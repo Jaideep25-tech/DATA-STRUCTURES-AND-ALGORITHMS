@@ -226,7 +226,14 @@ Data-Structures-and-Algorithms
     │       └───16. 167. Two Sum II - Input array is sorted
     │
     └───04. Recursion
+        │   README.md
         │
         └───Problems
-            └───01. Sum triangle from array
+            ├───00. Maximum and Minimum Value in an Array
+            │
+            ├───01. Sum triangle from array
+            │
+            ├───02. 509. Fibonacci Number
+            │
+            └───03. 344. Reverse String
 ```
