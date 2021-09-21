@@ -9,10 +9,9 @@
 ## Folder Structure
 ```
 Data-Structures-and-Algorithms
-│   LICENSE
-│   PREREQUISITES.md
+│   Basics.md
 │   README.md
-│   SYLLABUS.md
+│   Java+Dsa_Syllabus.md
 │
 ├───01. DataStructures
 │   ├───01. Linked List
