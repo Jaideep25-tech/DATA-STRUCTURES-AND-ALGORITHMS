@@ -17,6 +17,7 @@ Data-Structures-and-Algorithms
 │   ├───01. Linked List
 │   │   ├───1. Singly-Linked-List
 │   │   │   ├───Basic Operations
+|   |   |   |   └───01. Find Middle Element
 │   │   │   │
 │   │   │   └───InterviewBit Questions
 │   │   │       ├───01. ReverseLL
@@ -224,15 +225,21 @@ Data-Structures-and-Algorithms
     │       │
     │       └───16. 167. Two Sum II - Input array is sorted
     │
-    └───04. Recursion
-        │   README.md
-        │
-        └───Problems
-            ├───00. Maximum and Minimum Value in an Array
-            │
-            ├───01. Sum triangle from array
-            │
-            ├───02. 509. Fibonacci Number
-            │
-            └───03. 344. Reverse String
+    |────04. Recursion
+    |    │   README.md
+    |    │
+    |    └───Problems
+    |        ├───01. Maximum and Minimum Value in an Array
+    |        │
+    |        ├───02. Sum triangle from array
+    |        │
+    |        ├───03. 509. Fibonacci Number
+    |        │
+    |        └───04. 344. Reverse String
+    |
+    └────05. Graphs
+         |
+         └───01. Depth First Search
+             |
+             └───01. README.md
 ```
