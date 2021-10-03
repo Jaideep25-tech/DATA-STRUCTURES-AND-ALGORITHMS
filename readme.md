@@ -245,3 +245,5 @@ Data-Structures-and-Algorithms
 ```
 
 ![](https://github.com/Jaideep25-tech/Git_hub_command/blob/main/assets/thank%20you%20banner.png)
+
+This is a Hacktober fest  accepted repo.
