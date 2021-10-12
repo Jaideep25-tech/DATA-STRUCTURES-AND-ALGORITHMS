@@ -6,11 +6,13 @@ using namespace std;
 
 // Defination of Queue class.
 class Queue{
+	// Declaration of private members.
     private: 
         int rear;
         int front;
         int capacity;
         int *arr;
+	// Declaration of members functions.
     public: 
         Queue(int);
         bool isEmpty();
@@ -72,6 +74,8 @@ int main(){
 	// Creating Queue of size Capacity.
 	Queue *Q = new Queue(capacity);
 
+	// Operation of Queue,
+	// Executing according to the user choice.
 	while(true){
 		cout<< "\n1 - EnQueue: "<< endl;
 		cout<< "2 - DeQueue: "<< endl;
