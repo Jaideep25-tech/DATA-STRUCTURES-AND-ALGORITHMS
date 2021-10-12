@@ -1,3 +1,14 @@
+/**
+ * @file CircularQueue_Array.cpp
+ * @author Motasim (https://github.com/motasimmakki)
+ * @brief 
+ * @version 0.1
+ * @date 2021-10-12
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
+
 // Including header files.
 #include<iostream>  // For cout and cin.
 #include<cstdlib>   // For malloc().

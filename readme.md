@@ -111,6 +111,12 @@ Data-Structures-and-Algorithms
 │   │       ├───03. Queue using Stacks
 │   │       │
 │   │       ├───04. Circular Queue using Array
+│   │       │    │
+│   │       │    ├───CircularQueue_Array.cpp
+│   │       │    │
+│   │       │    ├───CircularQueue_Array.java
+│   │       │    │
+│   │       │    └───README.md
 │   │       │
 │   │       ├───05. Circular Queue using Linked List
 │   │       │
